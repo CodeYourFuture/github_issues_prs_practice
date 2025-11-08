@@ -10,4 +10,5 @@ This document lists the requirements of the "fun facts" website.
   - **Row 1**: text left, image right
   - **Row 2**: image left, text right
   - **Row 3**: text left, image right
+
 - The Lighthouse accessibility score should be 100
