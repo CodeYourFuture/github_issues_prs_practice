@@ -1,0 +1,17 @@
+name: Check Code of Conduct
+on:
+  pull_request_target:
+    types:
+      - opened
+      - edited
+      - reopened
+
+jobs:
+  check_code_of_conduct:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: CodeYourFuture/actions/validate-pr-metadata@main
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          use_dummy_code_of_conduct_validator: true
