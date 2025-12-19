@@ -11,3 +11,5 @@ You can see the deployed site [here](https://codeyourfuture.github.io/github_iss
 - `index.html` - The HTML file used to generate the site.
 - `styles.css` - CSS used to style the site.
 - `.gitignore` - A list of files which should not be tracked by Git.
+
+This is an example change to a README file.
